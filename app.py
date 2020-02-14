@@ -24,4 +24,5 @@ def index():
     return render_template('index.html', url=url)
 
 if __name__ == "__main__":
+    # 'flask run --host=0.0.0.0' tells your operating system to listen on all public IPs.
     app.run(host="0.0.0.0")
